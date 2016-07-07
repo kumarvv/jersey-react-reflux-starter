@@ -1,6 +1,8 @@
-# react-reflux-starter
+# jersey-react-reflux-starter
 
-Starter template with: 
+Starter template with:
+- Java
+- Jersey
 - ReactJS
 - Reflux 
 - jQuery 
@@ -28,7 +30,7 @@ Build
 Run
 ---
 - drop the *jersey-react-reflux-starter-0.1.war* (/target folder) in tomcat or other web container
-- open <code>http://localhost:8282</code> in your favorite browser
+- open <code>http://localhost:8080</code> in your favorite browser
 
 
 Sample
