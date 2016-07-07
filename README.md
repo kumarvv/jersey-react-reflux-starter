@@ -12,7 +12,9 @@ Starter template with:
 
 Installation 
 ---
-- checkout from repo 
+- checkout from repo
+- <code>mvn clean package</code>
+- <code>cd client</code>
 - <code>npm install</code>
 
 Build
@@ -22,3 +24,13 @@ Build
 - generates two js files: 
 -- *common.js* - all dependecies (minified when run for production) 
 -- *app.js* - application code from app/**/*.jsx files 
+
+Run
+---
+- drop the *jersey-react-reflux-starter-0.1.war* (/target folder) in tomcat or other web container
+- open <code>http://localhost:8282</code> in your favorite browser
+
+
+Sample
+---
+![Alt text](/sample.png?raw=true "Sample page")
