@@ -18,6 +18,7 @@ Installation
 - <code>mvn clean package</code>
 - <code>cd client</code>
 - <code>npm install</code>
+- <code>npm install -g gulp browserify</code>
 
 Build
 ---

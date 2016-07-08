@@ -46,7 +46,7 @@ function doCommonScript() {
         gulp.src(fromjs)
             .pipe(gulp.dest(DEST_RUNTIME_JS_DIR))
             .on('end', function () {
-                gutil.log('Copied', gutil.colors.green(fromjs), "->", gutil.colors.magenta(DEST_RUNTIME_JS_DIR + '/' + to), "Done.");
+                gutil.log('Copied', gutil.colors.green(fromjs), "->", gutil.colors.magenta(DEST_RUNTIME_JS_DIR + '/' + COMMON_JS), "Done.");
                 console.log("-----------------------------------------------");
             });
         gutil.log("Copied", gutil.colors.green(DEST_JS_DIR + '/' + COMMON_JS));
